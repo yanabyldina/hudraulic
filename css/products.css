@@ -2,129 +2,13 @@ body {
     padding-top: 56px;
     margin: 0 auto;
     max-width: 980px;
-  
-
+    
     
 }
 .navbar-brand img {
     max-height: 35px;
     padding-right: 105px;
 }
-
-.container h3 {
-    margin-top: 40px;
-}
-
-.container {
-    display: block;
-}
-
-li.nav-item a {
-    color: black;
-}
-
-.card {
-    width: 400px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.product-list {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 10px;
-    padding-left: 10px;
-}
-
-
-
-@media (min-width: 250px) and (max-width: 750px) {
-    .product-list {
-        grid-template-columns: 1fr ;
-    }
-}
-
-@media (min-width: 800px) {
-    .product-list {
-
-        grid-template-columns: 1fr 1fr ;
-    }
-}
-
-h2 {
-    padding-left: 10px;
-}
-
-hr {
-    padding: 2px;
-    length: 1400px;
-}
-.card-img {
-    max-width: 400px;
-}
-
-
-.arrow {
-  padding: 0;
-  font-size: 24px;
-  line-height: 24px;
-
-  display: block;
-}
-
-.arrow:focus {
-  outline: none;
-}
-
-.arrow:hover {
- 
-  cursor: pointer;
-}
-
-#carousel ul {
-  position: relative;
-  height: 150px;
-  width: 330px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  ;
-  overflow: hidden;
-  text-overflow: clip;
-  font-size: 0;
-}
-
-#carousel ul img {
-  width: 330px;
-  height: 150px;
-  box-sizing: border-box;
-  display: block;
-}
-
-#carousel ul li {
-  position: relative;
-  left: 0px;
-  transition-duration: 0.2s;
-  transition-property: left;
-  transition-timing-function: ease;
-  display: inline-block;
-}
-
-#carousel { 
-  padding: 5px 5px;
-  white-space: nowrap;
-  background-color: white;
-  display: inline-block;
-}
-
-#carousel span {
-  display: inline-block;
-  vertical-align: middle;
-}
-.card {
-    height: 100%;
-}
-.btn {
-    padding: 0.75rem 0.7rem;
+.details p {
+  text-align: left;
 }
